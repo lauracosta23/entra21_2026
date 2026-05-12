@@ -1,6 +1,6 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
-public class Multiplicador {
+public class Multiplicadord {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 		System.out.print("Digite o primeiro número: ");
