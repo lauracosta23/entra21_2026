@@ -1,0 +1,17 @@
+public class RestoDivisao {
+    public static void main(String[] args) {
+
+        int numero1 = 250;
+        int numero2 = 30;
+
+        int resto = numero1 % numero2;
+
+        System.out.println("Resto da divisão: " + resto);
+
+        if (resto <= 100) {
+            System.out.println("O resto é menor ou igual a 100");
+        } else {
+            System.out.println("O resto é maior que 100");
+        }
+    }
+}
